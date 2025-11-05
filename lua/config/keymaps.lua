@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 vim.keymap.set("n", "<leader>qL", Snacks.dashboard.open, { desc = "Open Snacks Dashboard" })
 vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit insert mode" })
+-- vim.keymap.set("t", "jj", "<Esc><Esc>", { desc = "Exit terminal mode" })
