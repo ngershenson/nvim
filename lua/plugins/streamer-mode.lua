@@ -6,7 +6,7 @@ return {
     paths = {
       "*/.env",
     },
-    exclude_default_keywords = { "export" },
+    exclude_default_keywords = { "export", "name", "alias", "port" },
     keywords = {
       "export USER_NAME",
       "export USER_PASS",
